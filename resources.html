@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+   
+    <title>Resources</title>
+</head>
+
+<body>
+    <div class="library-container">
+        <div class="title">
+            <div class="book">
+                <img src="./images/open-book.png" alt="">
+                <h2>Resources</h2>
+            </div>
+            <div class="home-resources">
+                <a href="./index.html">Home</a>
+                <button id="add-book-btn">Add Book</button>
+            </div>
+        </div>
+        <div id="card-container">
+            <!-- <div class="card">
+                <div class="card-img"><img src="./images/england-english-book.jpeg" alt=""></div>
+                <div class="card-text">
+                    <p class="book-title">General Mathematics bvjhjre guuuigugiuuuguguguguiiu</p>
+                    <div class="table">
+                        <div class="column">
+                            <div class="data">Author:</div>
+                            <div class="data">YOP:</div>
+                            <div class="data">Total Pages:</div>
+                            <div class="data">Category:</div>
+                            <div class="data">BookCode:</div>
+                            <div class="data">Status:</div>
+                        </div>
+                        <div class="column">
+                            <div class="data" id="author">English Man S.K gffftty</div>
+                            <div class="data">10/12/2003</div>
+                            <div class="data">259</div>
+                            <div class="data">Text Book</div>
+                            <div class="data">gitn-000</div>
+                            <div class="data">Read</div>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <button>Status</button>
+                        <button>Remove</button>
+                    </div>
+
+                </div>
+            </div> -->
+            
+            <!-- <div class="card"></div>
+            <div class="card"></div> -->
+        </div>
+    </div>
+
+    <div id="popup-form" class="hidden unhidden">
+        <div class="form-container">
+            <h2>Add a New Book</h2>
+            <form id="book-form">
+                <label for="title">Book Title:</label>
+                <input type="text" id="title" name="title" required>
+                <label for="author">Author:</label>
+                <input type="text" id="author" name="author" required>
+                <label for="pages">Total Pages:</label>
+                <input type="number"min ="0" id="pages" name="pages" required>
+                 <label for="yop">Year of Publication:</label>
+                <input type="date" id="yop" name="yop" required>
+                
+                <label for="category">Category:</label>
+                <input type="text" id="category" name="category" required>
+                <!-- <label for="category">Status:</label>
+                <input type="text" id="status" name="status" required> -->
+
+
+                <div class="form-buttons">
+                    <button type="submit">Save</button>
+                    <button type="submit" id="close-popup">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="./scripts/app.js"></script>
+</body>
+
+</html>
